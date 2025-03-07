@@ -40,7 +40,8 @@ public class LoadCSVToElasticsearch {
 		loadCSVToElasticsearch();
 		
 		String indexName = "employees"; // Elasticsearch index name
-		String csvFilePath = "F:\\Employee Sample Data.csv"; // Path to CSV file
+		//change the path of the csv file according to your system path
+		String csvFilePath = "C:\\Users\\Satya D\\Elasticsearch-project\\elasticsearch\\src\\Employee Sample Data.csv"; // Path to CSV file
 		  BasicCredentialsProvider credentialsProvider = new BasicCredentialsProvider();
 		  credentialsProvider.setCredentials(AuthScope.ANY, 
               new UsernamePasswordCredentials("elastic", "=myiz2VHmutSgu4z=ZPO"));
